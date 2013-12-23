@@ -44,6 +44,14 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
+if [ -f ~/.git-prompt.sh ]; then
+    . ~/.git-prompt.sh
+else
+    function __git_ps1 {
+        : # noop
+    }
+fi
+
 if [ "$color_prompt" = yes ]; then
 #    PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
     export GIT_PS1_SHOWDIRTYSTATE=1 GIT_PS1_SHOWUNTRACKEDFILES=1 GIT_PS1_SHOWSTASHSTATE=1

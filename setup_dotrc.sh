@@ -6,6 +6,7 @@
 
 # git
 [ ! -h ~/.gitconfig ] && ln -s ~/.dotrc/gitconfig ~/.gitconfig
+[ ! -h ~/.git-prompt.sh ] && ln -s ~/.dotrc/git-prompt.sh ~/.git-prompt.sh
 
 # irssi
 [ ! -h ~/.irssi ] && ln -s ~/.dotrc/irssi ~/.irssi
