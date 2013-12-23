@@ -1,6 +1,6 @@
 [user]
         name = David Gurtner
-        email = david@crimson.ch
+        email = aldavud@crimson.ch
 [core]
         autocrlf = input
         safecrlf = true
