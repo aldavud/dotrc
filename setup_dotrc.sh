@@ -1,6 +1,7 @@
 #! /bin/bash
 
-# aliases
+# bash, aliases
+[ ! -h ~/.bashrc ] && ln -s ~/.dotrc/bashrc ~/.bashrc
 [ ! -h ~/.bash_aliases ] && ln -s ~/.dotrc/bash_aliases ~/.bash_aliases
 
 # git
