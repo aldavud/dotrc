@@ -16,15 +16,15 @@ All the irssi themes and scripts and the vim plugins are copyright of its respec
 
 ### hilightwin
 
-[Timo cras Sirainen, Mark znx Sangster,](http://scripts.irssi.org/)
+[Timo cras Sirainen, Mark znx Sangster](http://scripts.irssi.org/#hilightwin.pl)
 
 ### screen_away
 
-[Andreas ads Scherbaum](http://scripts.irssi.org/)
+[Andreas ads Scherbaum](http://scripts.irssi.org/#screen_away.pl)
 
 ### usercount
 
-[David Leadbeater, Timo Sirainen, Georg Lukas](http://scripts.irssi.org/)
+[David Leadbeater, Timo Sirainen, Georg Lukas](http://scripts.irssi.org/#usercount.pl)
 
 ### vim-pathogen
 
