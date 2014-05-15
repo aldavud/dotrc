@@ -15,12 +15,7 @@
 # screenrc
 [ ! -h ~/.screenrc ] && ln -s ~/.dotrc/screenrc ~/.screenrc
 
-# mutt
-[ ! -h ~/.muttrc ] && ln -s ~/.dotrc/muttrc ~/.muttrc
-[ ! -h ~/.mutt ] && ln -s ~/.dotrc/mutt ~/.mutt
-
 # vim
 [ ! -h ~/.vimrc ] && ln -s ~/.dotrc/vimrc ~/.vimrc
 [ ! -h ~/.vim ] && ln -s ~/.dotrc/vim ~/.vim
-
 

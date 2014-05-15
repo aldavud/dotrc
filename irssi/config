@@ -287,7 +287,7 @@ hilights = (
 );
 windows = {
   1 = { immortal = "yes"; name = "(status)"; level = "ALL"; };
-  2 = { name = "hilight"; sticky = "yes"; };
+  2 = { immortal = "yes"; name = "hilight"; sticky = "yes"; };
 };
 mainwindows = {
   1 = { first_line = "8"; lines = "42"; };
