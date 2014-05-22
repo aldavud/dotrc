@@ -68,8 +68,8 @@ unset color_prompt force_color_prompt
 
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
-#xterm*|rxvt*|screen*)
-xterm*|rxvt*)
+xterm*|rxvt*|screen*)
+#xterm*|rxvt*)
     export GIT_PS1_SHOWDIRTYSTATE=1 GIT_PS1_SHOWUNTRACKEDFILES=1 GIT_PS1_SHOWSTASHSTATE=1
     PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\[\033[01;33m\]$(__git_ps1)\[\033[01;34m\]\$\[\033[00m\] '
     export TERM='xterm-256color'
