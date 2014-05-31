@@ -10,7 +10,8 @@
 
 # irssi
 [ ! -h ~/.irssi ] && ln -s ~/.dotrc/irssi ~/.irssi
-[ ! -h ~/.irc_screenrc ] && ln -s ~/.dotrc/irc_screenrc ~/.irc_screenrc
+[ ! -h ~/irc_screenrc ] && sudo ln -s  ~/.dotrc/irc_screenrc ~/irc_screenrc
+[ ! -h /usr/local/bin/irc_start ] && sudo ln -s  ~/.dotrc/irc_start /usr/local/bin/irc_start
 
 # screenrc
 [ ! -h ~/.screenrc ] && ln -s ~/.dotrc/screenrc ~/.screenrc
