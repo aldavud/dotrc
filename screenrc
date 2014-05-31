@@ -1,2 +1,5 @@
+screen -t irssi 0 irssi
 startup_message off
 defutf8 on
+escape ^A^A
+bind o other
