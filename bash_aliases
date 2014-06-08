@@ -10,6 +10,11 @@ alias gb='git branch '
 alias gc='git commit'
 alias gd='git diff'
 alias go='git checkout '
+alias gr='git remote '
+alias gp='git push '
+alias gu='git pull '
+alias gh='git hist'
+alias gl='git log'
 alias gk='gitk --all&'
 
 # screen
