@@ -50,3 +50,6 @@ All the irssi themes and scripts and the vim plugins are copyright of its respec
 
 [Tim Sharpe](https://github.com/rodjek/vim-puppet)
 
+### bats.vim
+
+[Ross Timson](https://github.com/rosstimson/bats.vim)
