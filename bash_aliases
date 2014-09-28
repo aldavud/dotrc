@@ -15,6 +15,7 @@ alias gp='git push '
 alias gu='git pull '
 alias gh='git hist'
 alias gl='git log'
+alias gf='git fetch '
 alias gk='gitk --all&'
 
 # screen
