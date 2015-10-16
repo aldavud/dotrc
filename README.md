@@ -42,10 +42,6 @@ All the irssi themes and scripts and the vim plugins are copyright of its respec
 
 [Tim Pope](https://github.com/tpope/vim-fugitive)
 
-### powerline
-
-[Kim Silkebækken](https://github.com/Lokaltog/powerline.git)
-
 ### vim-puppet
 
 [Tim Sharpe](https://github.com/rodjek/vim-puppet)
