@@ -1,4 +1,3 @@
-# README.md
 # .*rc for my workstation
 
 ## Irssi config
