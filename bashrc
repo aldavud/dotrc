@@ -95,3 +95,9 @@ if [ -d ~/.packer/bin ]; then
   export PATH="${HOME}/.packer/bin:${PATH}"
 fi
 
+# golang workspace
+if [ -d ~/Documents/golang ]; then
+  export GOPATH=$HOME/Documents/golang
+  export PATH=$PATH:$GOPATH/bin
+fi
+
