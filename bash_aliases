@@ -20,3 +20,4 @@ alias gk='gitk --all&'
 
 # screen
 alias rscreen='screen -raAd'
+alias mplayer='mplayer -af scaletempo'
